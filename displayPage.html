@@ -1,33 +1,45 @@
 <!DOCTYPE HTML>
 <html>
-<meta charset="UTF-8">
-<title>Company Name</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Company Name</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<link rel='stylesheet prefetch' href='css/style.css'>
+  <link rel='stylesheet prefetch' href='css/style.css'>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 
 <body>
-  <div class="w3-container top-bar" style="background-image: url('@Resources/top-back.jpg'); background-size: 100%;">
-    <h1>iDonk</h1>
-    <div id="sb-search" class="sb-search " >
-      <form action="/action_page.php">
-          <input class="sb-search-input " onkeyup="buttonUp();" placeholder="Enter your search term..." onblur="monkey();" type="search" value="" name="search" id="search">
-          <input class="sb-search-submit" type="submit"  value="">
-          <span class="sb-icon-search"><i class="fa fa-search"></i></span>
-      </form>
+    <div class="w3-container top-bar" style="background-image: url('@Resources/top-back.jpg'); background-size: 100%;
+    background-position: center; ">
+      <div class="w3-container w3-cell" style="padding: 10px 0 0 20px;">
+        <img src="@Resources/logo.png" style="width: 150px;">
+      </div>
+      <div class="w3-container w3-cell" style="padding: 5px 0 0 20px;">
+        <img src="@Resources/name.png" style="width: 300px;">
+      </div>
+      <div id="sb-search" class="sb-search " >
+        <form action="/action_page.php">
+            <input class="sb-search-input " onkeyup="buttonUp();" placeholder="Enter your search term..." onblur="monkey();" type="search" value="" name="search" id="search">
+            <input class="sb-search-submit" type="submit"  value="">
+            <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+        </form>
+      </div>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script  src="js/index.js"></script>
     </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script  src="js/index.js"></script>
-  </div>
+
+    <div class="w3-container w3-footer bottom">
+      <p>Created by KDI Incorporated. All rights reserved.</p>
+    </div>
+</body>
 
   <div class="w3-container w3-center center"><p>Here are the following
     <img src="@Resources/amazon_logo_.jpg"  class="amazon"></img> results for your search</p></div>
