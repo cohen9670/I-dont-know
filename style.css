@@ -126,7 +126,7 @@ input[type="search"].sb-search-input {
 }
 
 h1 {
-  font-family: "Arial Black";
+  font-family: "Ariel Black";
   padding: 0px 0px 0px 48px;
   font-size: 64px;
   font-weight: bold;
@@ -140,4 +140,17 @@ h1 {
 
 p{
   position: relative;
+}
+
+.center{
+position: relative;
+top:200px;
+}
+
+.amazon{
+  width:70px;
+  height:30px;
+  position: relative;
+  padding-top: 10px;
+  top:3px;
 }
