@@ -143,3 +143,13 @@ h1 {
   padding: 0 0 0 20px;
   top: 200px;
 }
+
+.center{
+  position: relative;
+  top:200px;
+}
+.amazon{
+  width:70px;
+  height:20px;
+  top:3px;
+}
