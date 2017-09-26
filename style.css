@@ -126,31 +126,20 @@ input[type="search"].sb-search-input {
 }
 
 h1 {
-  font-family: "Ariel Black";
+  font-family: "Helvetica";
   padding: 0px 0px 0px 48px;
   font-size: 64px;
   font-weight: bold;
   background-color: black;
   color: transparent;
-  text-shadow: 0px 1px 3px #FFFFFF;
+  text-shadow: 0px 1px 4px #077BB5;
   -webkit-background-clip: text;
      -moz-background-clip: text;
           background-clip: text;
 }
 
-p{
+.bottom{
   position: relative;
-}
-
-.center{
-position: relative;
-top:200px;
-}
-
-.amazon{
-  width:70px;
-  height:30px;
-  position: relative;
-  padding-top: 10px;
-  top:3px;
+  padding: 0 0 0 20px;
+  top: 200px;
 }
